@@ -1,0 +1,108 @@
+body{
+  background-color:rgb(28, 92, 129);
+}
+
+#container{ 
+	width:100%; 
+	max-width:960px; 
+	margin:0px auto; 
+	background-color:rgb(28, 92, 129);
+	padding:0px;
+	box-sizing:border-box;
+
+	display:flex;
+	flex-wrap:wrap; 
+	flex-direction:row; 
+	align-content:flex-start; 
+	align-items:stretch; 
+}
+
+header{
+	width:100%;
+	background-color:rgb(28, 92, 129);
+	padding:10px;
+	box-sizing:border-box;
+	text-align:center; 
+}
+
+#game{
+  width:100%;
+	background-color:rgb(28, 92, 129);
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+  margin-bottom: 50px;
+
+	display:flex;
+	flex-wrap:wrap; 
+	flex-direction:row; 
+	align-content:flex-start; 
+	align-items:stretch; 
+}
+
+p{
+  font-size: 2.25em;
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(255,255,255);
+}
+
+button{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  color: rgb(255,255,255);
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.25em;
+  background: transparent;
+  border: 2px solid rgb(255,255,255);
+}
+
+button:hover{
+  background-color: rgb(255,255,255);
+  color: rgb(28, 92, 129);
+}
+
+table{
+  border: solid 2px rgb(255,255,255);
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 0;
+}
+
+.puck-1{
+  width: 30px;
+  height: 30px;
+  border-radius:15px;
+  background-color: rgb(255,0,0);
+  display:inline-block;
+  border: solid 2px rgb(0,0,0);
+}
+
+.puck-2{
+  width:30px;
+  height:30px;
+  border-radius: 15px;
+  background-color: rgb(255,255,0);
+  display:inline-block;
+  border: solid 2px rgb(0,0,0);
+}
+
+td{
+  border: solid 1.5px rgb(255,255,255);
+  margin: 0;
+  padding: 5px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+h1{
+  font-size: 4em;
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(255,255,255);
+}
+
+a{
+  text-decoration: none;
+  color: rgb(255,255,255);
+}
